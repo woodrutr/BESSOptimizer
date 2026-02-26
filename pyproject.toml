@@ -1,0 +1,96 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bess-ml"
+version = "2.0.0"
+description = "NYISO BESS DART-spread ML arbitrage engine"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Proprietary" }
+
+dependencies = [
+    # ── Core data ─────────────────────────────────────────────────────────────
+    "pandas>=2.1",
+    "pyarrow>=14.0",
+    "numpy>=1.26",
+
+    # ── ML ────────────────────────────────────────────────────────────────────
+    # Install the correct torch wheel for your hardware outside this file:
+    #   macOS MPS  : pip install torch torchvision torchaudio
+    #   Linux CUDA : pip install torch --index-url https://download.pytorch.org/whl/cu121
+    "torch>=2.1",
+    "scikit-learn>=1.4",
+    "optuna>=3.5",
+
+    # ── HTTP / retry ──────────────────────────────────────────────────────────
+    "requests>=2.31",
+    "tenacity>=8.2",
+
+    # ── Configuration ─────────────────────────────────────────────────────────
+    "python-dotenv>=1.0",
+
+    # ── Dashboard ─────────────────────────────────────────────────────────────
+    "streamlit>=1.32",
+    "streamlit-autorefresh>=1.0",
+    "plotly>=5.18",
+
+    # ── Utilities ─────────────────────────────────────────────────────────────
+    "tqdm>=4.66",
+    "psutil>=5.9",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=4.1",
+    "ruff>=0.3",
+    "mypy>=1.8",
+]
+
+[project.scripts]
+# ── Search & training ──────────────────────────────────────────────────────────
+bess-search    = "bess_ml.pipeline.search_zones:main"
+bess-train     = "bess_ml.pipeline.train_zones:main"
+bess-backtest  = "bess_ml.pipeline.bess_backtest:main"
+bess-exec-opt  = "bess_ml.pipeline.optimize_execution:main"
+bess-retrain   = "bess_ml.pipeline.retrain_live:main"
+bess-control   = "bess_ml.cli:main"
+
+# ── Live daemon ────────────────────────────────────────────────────────────────
+bess-daemon    = "bess_ml.daemon.bess_daemon:main"
+
+# ── Dashboard ─────────────────────────────────────────────────────────────────
+bess-dashboard = "bess_ml.app:main"
+
+# ── Data pipeline ─────────────────────────────────────────────────────────────
+bess-update-market     = "bess_ml.scripts.update_market_data:main"
+bess-update-weather    = "bess_ml.scripts.update_weather:main"
+bess-update-fuels      = "bess_ml.scripts.update_fuels:main"
+bess-update-generation = "bess_ml.scripts.update_generation:main"
+bess-backfill-fuels    = "bess_ml.scripts.backfill_fuels:main"
+bess-backfill-weather  = "bess_ml.scripts.backfill_weather:main"
+bess-backfill-load     = "bess_ml.scripts.backfill_load_forecast:main"
+bess-backfill-gen      = "bess_ml.scripts.backfill_generation:main"
+bess-diagnose          = "bess_ml.scripts.diagnose_data:main"
+bess-test-leakage      = "bess_ml.scripts.test_leakage:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"bess_ml" = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts   = "-ra -q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
