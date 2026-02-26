@@ -1,0 +1,15 @@
+{
+  "zone": "HUDVL",
+  "forecast_horizon": 1,
+  "n_spread_lags": 12,
+  "vol_short_window": 6,
+  "load_window": 3,
+  "lookback": 24,
+  "learning_rate": 0.001,
+  "epochs": 50,
+  "cv_mae": 11.997633457183838,
+  "cv_r2": 0.029073700308799744,
+  "cv_directional_hit_rate": 0.6425685133717779,
+  "cv_folds": 4,
+  "timestamp": "20260219_083038"
+}

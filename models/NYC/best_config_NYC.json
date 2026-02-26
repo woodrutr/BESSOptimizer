@@ -1,0 +1,21 @@
+{
+    "timestamp": "2026-02-26T03:26:09.691301+00:00",
+    "zone": "N.Y.C.",
+    "lookback": 48,
+    "hidden_size": 32,
+    "num_layers": 3,
+    "learning_rate": 0.004888649316790615,
+    "penalty_ratio": 4.049340635118823,
+    "batch_size": 256,
+    "dropout_rate": 0.07634929642547335,
+    "weight_decay": 5.545187207616082e-06,
+    "epochs": 100,
+    "search_validate_every": 1,
+    "search_early_stop_patience": 2,
+    "alpha_score": 109765.22923367322,
+    "holdout_net_pnl": 898490.2792896628,
+    "holdout_max_drawdown": 3123.349997997284,
+    "protocol_hash": "d184e567e4fb",
+    "study_name": "alpha_v5_NYC_457eb9588748_d184e5",
+    "n_features": 38
+}

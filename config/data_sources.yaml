@@ -1,0 +1,27 @@
+refresh:
+  timezone: America/New_York
+  hourly_tasks:
+    - scripts/update_weather.py
+    - scripts/update_generation.py
+  daily_fuel_task:
+    time_local: "05:30"
+    command: scripts/update_fuels.py --days 21
+  daily_retrain_task:
+    time_local: "06:15"
+    command: python -m pipeline.train_zones
+  daily_eval_task:
+    time_local: "07:00"
+    command: scripts/evaluate_zones.py --output-dir reports
+
+contracts:
+  max_market_age_hours: 48
+  max_weather_age_hours: 48
+  max_generation_age_hours: 48
+  max_fuels_age_hours: 168
+  fail_closed: true
+
+sources:
+  nyiso: https://mis.nyiso.com/public/csv/
+  eia: https://api.eia.gov/v2/
+  nws: https://api.weather.gov/
+  noaa_cdo: https://www.ncei.noaa.gov/cdo-web/api/v2/

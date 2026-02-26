@@ -1,0 +1,154 @@
+{"ts": "2026-02-23T00:58:10.434096+00:00", "event": "init", "msg": "Initializing rigorous search controller"}
+{"ts": "2026-02-23T00:58:10.586945+00:00", "event": "optuna_jobs", "requested": 1, "effective": 1, "device": "mps"}
+{"ts": "2026-02-23T00:58:10.587128+00:00", "event": "loading_master_data", "fuels_path": "historical_data/fuels.parquet"}
+{"ts": "2026-02-23T00:58:12.650890+00:00", "event": "build_features_once"}
+{"ts": "2026-02-23T00:58:13.558650+00:00", "event": "feature_matrix_ready", "rows": 192817, "n_features": 38}
+{"ts": "2026-02-23T00:58:13.566078+00:00", "event": "zone_start", "zone": "N.Y.C.", "rows": 12855, "n_features": 38}
+{"ts": "2026-02-23T00:58:13.567442+00:00", "event": "split_dev_holdout", "zone": "N.Y.C.", "dev_rows": 10284, "holdout_rows": 2571, "holdout_frac": 0.2, "holdout_start": "2025-10-27 16:00:00", "holdout_end": "2026-02-22 21:00:00"}
+{"ts": "2026-02-23T00:58:13.569828+00:00", "event": "cv_plan_ready", "zone": "N.Y.C.", "screen_folds": 2, "confirm_folds": 4, "train_min": 3599, "screen_val": 1028, "confirm_val": 876, "purge_steps": 576, "embargo_steps": 12}
+{"ts": "2026-02-23T00:58:13.580200+00:00", "event": "baseline_cv", "zone": "N.Y.C.", "aggregate": {"n_folds": 4, "median_fold_pnl": 4354.8549877544865, "mean_fold_pnl": 4769.277483481448, "fold_pnl_std": 2804.5714881528966, "worst_fold_pnl": 1808.9999766852707, "worst_fold_drawdown": 4765.780029108748, "total_turnover": 1164.0, "total_trades": 1164, "profitable_fold_pct": 1.0, "composite_score": 1998.2492378562886}}
+{"ts": "2026-02-23T00:58:14.370985+00:00", "event": "study_name", "zone": "N.Y.C.", "study_name": "alpha_v5_NYC_cce065adfcd5_c16a15"}
+{"ts": "2026-02-23T02:46:34.275919+00:00", "event": "init", "msg": "Initializing rigorous search controller"}
+{"ts": "2026-02-23T02:46:34.293125+00:00", "event": "optuna_jobs", "requested": 1, "effective": 1, "device": "mps"}
+{"ts": "2026-02-23T02:46:34.293454+00:00", "event": "loading_master_data", "fuels_path": "historical_data/fuels.parquet"}
+{"ts": "2026-02-23T02:46:36.946487+00:00", "event": "build_features_once"}
+{"ts": "2026-02-23T02:46:44.324875+00:00", "event": "feature_matrix_ready", "rows": 2359657, "n_features": 38}
+{"ts": "2026-02-23T02:46:44.393069+00:00", "event": "zone_start", "zone": "N.Y.C.", "rows": 157311, "n_features": 38}
+{"ts": "2026-02-23T02:46:44.400526+00:00", "event": "split_dev_holdout", "zone": "N.Y.C.", "dev_rows": 125849, "holdout_rows": 31462, "holdout_frac": 0.2, "holdout_start": "2025-10-27 06:15:00", "holdout_end": "2026-02-22 21:30:00"}
+{"ts": "2026-02-23T02:46:44.433002+00:00", "event": "cv_plan_ready", "zone": "N.Y.C.", "screen_folds": 2, "confirm_folds": 4, "train_min": 44047, "screen_val": 12585, "confirm_val": 10068, "purge_steps": 576, "embargo_steps": 12}
+{"ts": "2026-02-23T02:46:44.534584+00:00", "event": "baseline_cv", "zone": "N.Y.C.", "aggregate": {"n_folds": 4, "median_fold_pnl": 122347.43541125767, "mean_fold_pnl": 139075.367666875, "fold_pnl_std": 81104.60394875864, "worst_fold_pnl": 67042.2899250947, "worst_fold_drawdown": 5002.829975545406, "total_turnover": 5501.0, "total_trades": 5501, "profitable_fold_pct": 1.0, "composite_score": 80789.06644176928}}
+{"ts": "2026-02-23T02:46:44.651011+00:00", "event": "study_name", "zone": "N.Y.C.", "study_name": "alpha_v5_NYC_cce065adfcd5_c16a15"}
+{"ts": "2026-02-23T02:52:17.298691+00:00", "event": "init", "msg": "Initializing rigorous search controller"}
+{"ts": "2026-02-23T02:52:17.351096+00:00", "event": "optuna_jobs", "requested": 1, "effective": 1, "device": "mps"}
+{"ts": "2026-02-23T02:52:17.351263+00:00", "event": "loading_master_data", "fuels_path": "historical_data/fuels.parquet"}
+{"ts": "2026-02-23T02:52:19.906432+00:00", "event": "build_features_once"}
+{"ts": "2026-02-23T02:52:26.594797+00:00", "event": "feature_matrix_ready", "rows": 2359657, "n_features": 38}
+{"ts": "2026-02-23T02:52:26.660074+00:00", "event": "zone_start", "zone": "N.Y.C.", "rows": 157311, "n_features": 38}
+{"ts": "2026-02-23T02:52:26.667551+00:00", "event": "split_dev_holdout", "zone": "N.Y.C.", "dev_rows": 125849, "holdout_rows": 31462, "holdout_frac": 0.2, "holdout_start": "2025-10-27 06:15:00", "holdout_end": "2026-02-22 21:30:00"}
+{"ts": "2026-02-23T02:52:26.700725+00:00", "event": "cv_plan_ready", "zone": "N.Y.C.", "screen_folds": 2, "confirm_folds": 4, "train_min": 44047, "screen_val": 12585, "confirm_val": 10068, "purge_steps": 576, "embargo_steps": 12}
+{"ts": "2026-02-23T02:52:26.795121+00:00", "event": "baseline_cv", "zone": "N.Y.C.", "aggregate": {"n_folds": 4, "median_fold_pnl": 122347.43541125767, "mean_fold_pnl": 139075.367666875, "fold_pnl_std": 81104.60394875864, "worst_fold_pnl": 67042.2899250947, "worst_fold_drawdown": 5002.829975545406, "total_turnover": 5501.0, "total_trades": 5501, "profitable_fold_pct": 1.0, "composite_score": 80789.06644176928}}
+{"ts": "2026-02-23T02:52:26.907484+00:00", "event": "study_name", "zone": "N.Y.C.", "study_name": "alpha_v5_NYC_cce065adfcd5_c16a15"}
+{"ts": "2026-02-23T03:09:09.736824+00:00", "event": "init", "msg": "Initializing rigorous search controller"}
+{"ts": "2026-02-23T03:09:09.790083+00:00", "event": "optuna_jobs", "requested": 1, "effective": 1, "device": "mps"}
+{"ts": "2026-02-23T03:09:09.790263+00:00", "event": "loading_master_data", "fuels_path": "historical_data/fuels.parquet"}
+{"ts": "2026-02-23T03:09:12.312677+00:00", "event": "build_features_once"}
+{"ts": "2026-02-23T03:09:19.184977+00:00", "event": "feature_matrix_ready", "rows": 2359657, "n_features": 38}
+{"ts": "2026-02-23T03:09:19.251826+00:00", "event": "zone_start", "zone": "N.Y.C.", "rows": 157311, "n_features": 38}
+{"ts": "2026-02-23T03:09:19.259137+00:00", "event": "split_dev_holdout", "zone": "N.Y.C.", "dev_rows": 125849, "holdout_rows": 31462, "holdout_frac": 0.2, "holdout_start": "2025-10-27 06:15:00", "holdout_end": "2026-02-22 21:30:00"}
+{"ts": "2026-02-23T03:09:19.292194+00:00", "event": "cv_plan_ready", "zone": "N.Y.C.", "screen_folds": 2, "confirm_folds": 4, "train_min": 44047, "screen_val": 12585, "confirm_val": 10068, "purge_steps": 576, "embargo_steps": 12}
+{"ts": "2026-02-23T03:09:19.391117+00:00", "event": "baseline_cv", "zone": "N.Y.C.", "aggregate": {"n_folds": 4, "median_fold_pnl": 122347.43541125767, "mean_fold_pnl": 139075.367666875, "fold_pnl_std": 81104.60394875864, "worst_fold_pnl": 67042.2899250947, "worst_fold_drawdown": 5002.829975545406, "total_turnover": 5501.0, "total_trades": 5501, "profitable_fold_pct": 1.0, "composite_score": 80789.06644176928}}
+{"ts": "2026-02-23T03:09:19.498949+00:00", "event": "study_name", "zone": "N.Y.C.", "study_name": "alpha_v5_NYC_cce065adfcd5_c16a15"}
+{"ts": "2026-02-23T03:22:04.817221+00:00", "event": "init", "msg": "Initializing rigorous search controller"}
+{"ts": "2026-02-23T03:22:04.870869+00:00", "event": "optuna_jobs", "requested": 1, "effective": 1, "device": "mps"}
+{"ts": "2026-02-23T03:22:04.871178+00:00", "event": "loading_master_data", "fuels_path": "historical_data/fuels.parquet"}
+{"ts": "2026-02-23T03:22:07.466982+00:00", "event": "build_features_once"}
+{"ts": "2026-02-23T03:22:14.196898+00:00", "event": "feature_matrix_ready", "rows": 2359657, "n_features": 38}
+{"ts": "2026-02-23T03:22:14.262366+00:00", "event": "zone_start", "zone": "N.Y.C.", "rows": 157311, "n_features": 38}
+{"ts": "2026-02-23T03:22:14.269670+00:00", "event": "split_dev_holdout", "zone": "N.Y.C.", "dev_rows": 125849, "holdout_rows": 31462, "holdout_frac": 0.2, "holdout_start": "2025-10-27 06:15:00", "holdout_end": "2026-02-22 21:30:00"}
+{"ts": "2026-02-23T03:22:14.301883+00:00", "event": "cv_plan_ready", "zone": "N.Y.C.", "screen_folds": 2, "confirm_folds": 4, "train_min": 44047, "screen_val": 12585, "confirm_val": 10068, "purge_steps": 576, "embargo_steps": 12}
+{"ts": "2026-02-23T03:22:14.399705+00:00", "event": "baseline_cv", "zone": "N.Y.C.", "aggregate": {"n_folds": 4, "median_fold_pnl": 122347.43541125767, "mean_fold_pnl": 139075.367666875, "fold_pnl_std": 81104.60394875864, "worst_fold_pnl": 67042.2899250947, "worst_fold_drawdown": 5002.829975545406, "total_turnover": 5501.0, "total_trades": 5501, "profitable_fold_pct": 1.0, "composite_score": 80789.06644176928}}
+{"ts": "2026-02-23T03:22:14.508543+00:00", "event": "study_name", "zone": "N.Y.C.", "study_name": "alpha_v5_NYC_cce065adfcd5_c16a15"}
+{"ts": "2026-02-23T19:34:33.029998+00:00", "event": "init", "msg": "Initializing rigorous search controller"}
+{"ts": "2026-02-23T19:34:33.089383+00:00", "event": "optuna_jobs", "requested": 1, "effective": 1, "device": "mps"}
+{"ts": "2026-02-23T19:34:33.089580+00:00", "event": "loading_master_data", "fuels_path": "historical_data/fuels.parquet"}
+{"ts": "2026-02-23T19:34:35.761879+00:00", "event": "build_features_once"}
+{"ts": "2026-02-23T19:34:43.167219+00:00", "event": "feature_matrix_ready", "rows": 2363302, "n_features": 38}
+{"ts": "2026-02-23T19:34:43.234364+00:00", "event": "zone_start", "zone": "N.Y.C.", "rows": 157554, "n_features": 38}
+{"ts": "2026-02-23T19:34:43.241759+00:00", "event": "split_dev_holdout", "zone": "N.Y.C.", "dev_rows": 126043, "holdout_rows": 31511, "holdout_frac": 0.2, "holdout_start": "2025-10-27 22:25:00", "holdout_end": "2026-02-23 17:00:00"}
+{"ts": "2026-02-23T19:34:43.285667+00:00", "event": "cv_plan_ready", "zone": "N.Y.C.", "screen_folds": 2, "confirm_folds": 4, "train_min": 44115, "screen_val": 12604, "confirm_val": 10083, "purge_steps": 576, "embargo_steps": 12}
+{"ts": "2026-02-23T19:34:43.396249+00:00", "event": "baseline_cv", "zone": "N.Y.C.", "aggregate": {"n_folds": 4, "median_fold_pnl": 123583.85540641379, "mean_fold_pnl": 139202.59016789868, "fold_pnl_std": 80070.72553139704, "worst_fold_pnl": 66865.30993163958, "worst_fold_drawdown": 5035.039974629879, "total_turnover": 5452.0, "total_trades": 5452, "profitable_fold_pct": 1.0, "composite_score": 82536.03264578928}}
+{"ts": "2026-02-23T19:34:43.516594+00:00", "event": "study_name", "zone": "N.Y.C.", "study_name": "alpha_v5_NYC_cce065adfcd5_c16a15"}
+{"ts": "2026-02-25T14:43:25.712049+00:00", "event": "init", "msg": "Initializing rigorous search controller"}
+{"ts": "2026-02-25T14:43:25.768620+00:00", "event": "optuna_jobs", "requested": 1, "effective": 1, "device": "mps"}
+{"ts": "2026-02-25T14:43:25.768909+00:00", "event": "loading_master_data", "fuels_path": "historical_data/fuels.parquet"}
+{"ts": "2026-02-25T14:43:28.560146+00:00", "event": "build_features_once"}
+{"ts": "2026-02-25T14:43:36.364099+00:00", "event": "feature_matrix_ready", "rows": 2363302, "n_features": 38}
+{"ts": "2026-02-25T14:43:36.434899+00:00", "event": "zone_start", "zone": "N.Y.C.", "rows": 157554, "n_features": 38}
+{"ts": "2026-02-25T14:43:36.443306+00:00", "event": "split_dev_holdout", "zone": "N.Y.C.", "dev_rows": 126043, "holdout_rows": 31511, "holdout_frac": 0.2, "holdout_start": "2025-10-27 22:25:00", "holdout_end": "2026-02-23 17:00:00"}
+{"ts": "2026-02-25T14:43:36.481567+00:00", "event": "cv_plan_ready", "zone": "N.Y.C.", "screen_folds": 2, "confirm_folds": 4, "train_min": 44115, "screen_val": 12604, "confirm_val": 10083, "purge_steps": 576, "embargo_steps": 12}
+{"ts": "2026-02-25T14:43:36.606011+00:00", "event": "baseline_cv", "zone": "N.Y.C.", "aggregate": {"n_folds": 4, "median_fold_pnl": 123583.85540641379, "mean_fold_pnl": 139202.59016789868, "fold_pnl_std": 80070.72553139704, "worst_fold_pnl": 66865.30993163958, "worst_fold_drawdown": 5035.039974629879, "total_turnover": 5452.0, "total_trades": 5452, "profitable_fold_pct": 1.0, "composite_score": 82536.03264578928}}
+{"ts": "2026-02-25T14:43:36.736950+00:00", "event": "study_name", "zone": "N.Y.C.", "study_name": "alpha_v5_NYC_cce065adfcd5_c16a15"}
+{"ts": "2026-02-25T15:50:14.625683+00:00", "event": "init", "msg": "Initializing rigorous search controller"}
+{"ts": "2026-02-25T15:50:14.680415+00:00", "event": "optuna_jobs", "requested": 1, "effective": 1, "device": "mps"}
+{"ts": "2026-02-25T15:50:14.680728+00:00", "event": "loading_master_data", "fuels_path": "historical_data/fuels.parquet"}
+{"ts": "2026-02-25T15:50:17.351059+00:00", "event": "build_features_once"}
+{"ts": "2026-02-25T15:50:24.454185+00:00", "event": "feature_matrix_ready", "rows": 2363302, "n_features": 38}
+{"ts": "2026-02-25T15:50:24.522435+00:00", "event": "zone_start", "zone": "N.Y.C.", "rows": 157554, "n_features": 38}
+{"ts": "2026-02-25T15:50:24.530167+00:00", "event": "split_dev_holdout", "zone": "N.Y.C.", "dev_rows": 126043, "holdout_rows": 31511, "holdout_frac": 0.2, "holdout_start": "2025-10-27 22:25:00", "holdout_end": "2026-02-23 17:00:00"}
+{"ts": "2026-02-25T15:50:24.562740+00:00", "event": "cv_plan_ready", "zone": "N.Y.C.", "screen_folds": 2, "confirm_folds": 4, "train_min": 44115, "screen_val": 12604, "confirm_val": 10083, "purge_steps": 576, "embargo_steps": 12}
+{"ts": "2026-02-25T15:50:24.664291+00:00", "event": "baseline_cv", "zone": "N.Y.C.", "aggregate": {"n_folds": 4, "median_fold_pnl": 123583.85540641379, "mean_fold_pnl": 139202.59016789868, "fold_pnl_std": 80070.72553139704, "worst_fold_pnl": 66865.30993163958, "worst_fold_drawdown": 5035.039974629879, "total_turnover": 5452.0, "total_trades": 5452, "profitable_fold_pct": 1.0, "composite_score": 82536.03264578928}}
+{"ts": "2026-02-25T15:50:24.774050+00:00", "event": "study_name", "zone": "N.Y.C.", "study_name": "alpha_v5_NYC_cce065adfcd5_c16a15"}
+{"ts": "2026-02-25T16:10:39.182114+00:00", "event": "init", "msg": "Initializing rigorous search controller"}
+{"ts": "2026-02-25T16:10:39.230901+00:00", "event": "optuna_jobs", "requested": 1, "effective": 1, "device": "mps"}
+{"ts": "2026-02-25T16:10:39.231083+00:00", "event": "loading_master_data", "fuels_path": "historical_data/fuels.parquet"}
+{"ts": "2026-02-25T16:10:41.926292+00:00", "event": "build_features_once"}
+{"ts": "2026-02-25T16:10:49.311118+00:00", "event": "feature_matrix_ready", "rows": 2363302, "n_features": 38}
+{"ts": "2026-02-25T16:10:49.379077+00:00", "event": "zone_start", "zone": "N.Y.C.", "rows": 157554, "n_features": 38}
+{"ts": "2026-02-25T16:10:49.387948+00:00", "event": "split_dev_holdout", "zone": "N.Y.C.", "dev_rows": 126043, "holdout_rows": 31511, "holdout_frac": 0.2, "holdout_start": "2025-10-27 22:25:00", "holdout_end": "2026-02-23 17:00:00"}
+{"ts": "2026-02-25T16:10:49.425135+00:00", "event": "cv_plan_ready", "zone": "N.Y.C.", "screen_folds": 2, "confirm_folds": 4, "train_min": 44115, "screen_val": 12604, "confirm_val": 10083, "purge_steps": 288, "embargo_steps": 12}
+{"ts": "2026-02-25T16:10:49.529269+00:00", "event": "baseline_cv", "zone": "N.Y.C.", "aggregate": {"n_folds": 4, "median_fold_pnl": 124920.5604091715, "mean_fold_pnl": 141260.3351691938, "fold_pnl_std": 81484.51512634898, "worst_fold_pnl": 68546.52992964908, "worst_fold_drawdown": 5035.039974629879, "total_turnover": 5480.0, "total_trades": 5480, "profitable_fold_pct": 1.0, "composite_score": 83165.81485107103}}
+{"ts": "2026-02-25T16:11:32.483435+00:00", "event": "study_name", "zone": "N.Y.C.", "study_name": "alpha_v5_NYC_457eb9588748_d184e5"}
+{"ts": "2026-02-25T16:16:28.698686+00:00", "event": "init", "msg": "Initializing rigorous search controller"}
+{"ts": "2026-02-25T16:16:28.750186+00:00", "event": "optuna_jobs", "requested": 1, "effective": 1, "device": "mps"}
+{"ts": "2026-02-25T16:16:28.750372+00:00", "event": "loading_master_data", "fuels_path": "historical_data/fuels.parquet"}
+{"ts": "2026-02-25T16:16:31.304014+00:00", "event": "build_features_once"}
+{"ts": "2026-02-25T16:16:38.122011+00:00", "event": "feature_matrix_ready", "rows": 2363302, "n_features": 38}
+{"ts": "2026-02-25T16:16:38.190514+00:00", "event": "zone_start", "zone": "N.Y.C.", "rows": 157554, "n_features": 38}
+{"ts": "2026-02-25T16:16:38.198522+00:00", "event": "split_dev_holdout", "zone": "N.Y.C.", "dev_rows": 126043, "holdout_rows": 31511, "holdout_frac": 0.2, "holdout_start": "2025-10-27 22:25:00", "holdout_end": "2026-02-23 17:00:00"}
+{"ts": "2026-02-25T16:16:38.234529+00:00", "event": "cv_plan_ready", "zone": "N.Y.C.", "screen_folds": 2, "confirm_folds": 4, "train_min": 44115, "screen_val": 12604, "confirm_val": 10083, "purge_steps": 288, "embargo_steps": 12}
+{"ts": "2026-02-25T16:16:38.334987+00:00", "event": "baseline_cv", "zone": "N.Y.C.", "aggregate": {"n_folds": 4, "median_fold_pnl": 124920.5604091715, "mean_fold_pnl": 141260.3351691938, "fold_pnl_std": 81484.51512634898, "worst_fold_pnl": 68546.52992964908, "worst_fold_drawdown": 5035.039974629879, "total_turnover": 5480.0, "total_trades": 5480, "profitable_fold_pct": 1.0, "composite_score": 83165.81485107103}}
+{"ts": "2026-02-25T16:16:38.481378+00:00", "event": "study_name", "zone": "N.Y.C.", "study_name": "alpha_v5_NYC_457eb9588748_d184e5"}
+{"ts": "2026-02-25T16:30:16.293431+00:00", "event": "init", "msg": "Initializing rigorous search controller"}
+{"ts": "2026-02-25T16:30:16.307301+00:00", "event": "optuna_jobs", "requested": 1, "effective": 1, "device": "mps"}
+{"ts": "2026-02-25T16:30:16.307478+00:00", "event": "loading_master_data", "fuels_path": "historical_data/fuels.parquet"}
+{"ts": "2026-02-25T16:30:18.887625+00:00", "event": "build_features_once"}
+{"ts": "2026-02-25T16:30:25.998048+00:00", "event": "feature_matrix_ready", "rows": 2363302, "n_features": 38}
+{"ts": "2026-02-25T16:30:26.065273+00:00", "event": "zone_start", "zone": "N.Y.C.", "rows": 157554, "n_features": 38}
+{"ts": "2026-02-25T16:30:26.072593+00:00", "event": "split_dev_holdout", "zone": "N.Y.C.", "dev_rows": 126043, "holdout_rows": 31511, "holdout_frac": 0.2, "holdout_start": "2025-10-27 22:25:00", "holdout_end": "2026-02-23 17:00:00"}
+{"ts": "2026-02-25T16:30:26.106571+00:00", "event": "cv_plan_ready", "zone": "N.Y.C.", "screen_folds": 2, "confirm_folds": 4, "train_min": 44115, "screen_val": 12604, "confirm_val": 10083, "purge_steps": 288, "embargo_steps": 12}
+{"ts": "2026-02-25T16:30:26.202969+00:00", "event": "baseline_cv", "zone": "N.Y.C.", "aggregate": {"n_folds": 4, "median_fold_pnl": 124920.5604091715, "mean_fold_pnl": 141260.3351691938, "fold_pnl_std": 81484.51512634898, "worst_fold_pnl": 68546.52992964908, "worst_fold_drawdown": 5035.039974629879, "total_turnover": 5480.0, "total_trades": 5480, "profitable_fold_pct": 1.0, "composite_score": 83165.81485107103}}
+{"ts": "2026-02-25T16:30:26.351964+00:00", "event": "study_name", "zone": "N.Y.C.", "study_name": "alpha_v5_NYC_457eb9588748_d184e5"}
+{"ts": "2026-02-25T19:38:09.630198+00:00", "event": "init", "msg": "Initializing rigorous search controller"}
+{"ts": "2026-02-25T19:38:09.677807+00:00", "event": "optuna_jobs", "requested": 1, "effective": 1, "device": "mps"}
+{"ts": "2026-02-25T19:38:09.678087+00:00", "event": "loading_master_data", "fuels_path": "historical_data/fuels.parquet"}
+{"ts": "2026-02-25T19:38:12.240190+00:00", "event": "build_features_once"}
+{"ts": "2026-02-25T19:38:18.929628+00:00", "event": "feature_matrix_ready", "rows": 2363302, "n_features": 38}
+{"ts": "2026-02-25T19:38:18.995232+00:00", "event": "zone_start", "zone": "N.Y.C.", "rows": 157554, "n_features": 38}
+{"ts": "2026-02-25T19:38:19.003307+00:00", "event": "split_dev_holdout", "zone": "N.Y.C.", "dev_rows": 126043, "holdout_rows": 31511, "holdout_frac": 0.2, "holdout_start": "2025-10-27 22:25:00", "holdout_end": "2026-02-23 17:00:00"}
+{"ts": "2026-02-25T19:38:19.037316+00:00", "event": "cv_plan_ready", "zone": "N.Y.C.", "screen_folds": 2, "confirm_folds": 4, "train_min": 44115, "screen_val": 12604, "confirm_val": 10083, "purge_steps": 288, "embargo_steps": 12}
+{"ts": "2026-02-25T19:38:19.130745+00:00", "event": "baseline_cv", "zone": "N.Y.C.", "aggregate": {"n_folds": 4, "median_fold_pnl": 124920.5604091715, "mean_fold_pnl": 141260.3351691938, "fold_pnl_std": 81484.51512634898, "worst_fold_pnl": 68546.52992964908, "worst_fold_drawdown": 5035.039974629879, "total_turnover": 5480.0, "total_trades": 5480, "profitable_fold_pct": 1.0, "composite_score": 83165.81485107103}}
+{"ts": "2026-02-25T19:38:19.269092+00:00", "event": "study_name", "zone": "N.Y.C.", "study_name": "alpha_v5_NYC_457eb9588748_d184e5"}
+{"ts": "2026-02-25T21:01:12.763343+00:00", "event": "init", "msg": "Initializing rigorous search controller"}
+{"ts": "2026-02-25T21:01:12.779859+00:00", "event": "optuna_jobs", "requested": 1, "effective": 1, "device": "mps"}
+{"ts": "2026-02-25T21:01:12.780159+00:00", "event": "loading_master_data", "fuels_path": "historical_data/fuels.parquet"}
+{"ts": "2026-02-25T21:01:15.477568+00:00", "event": "build_features_once"}
+{"ts": "2026-02-25T21:01:20.101206+00:00", "event": "feature_matrix_ready", "rows": 2363302, "n_features": 23}
+{"ts": "2026-02-25T21:01:20.159660+00:00", "event": "zone_start", "zone": "N.Y.C.", "rows": 157554, "n_features": 23}
+{"ts": "2026-02-25T21:01:20.165521+00:00", "event": "split_dev_holdout", "zone": "N.Y.C.", "dev_rows": 126043, "holdout_rows": 31511, "holdout_frac": 0.2, "holdout_start": "2025-10-27 22:25:00", "holdout_end": "2026-02-23 17:00:00"}
+{"ts": "2026-02-25T21:01:20.200096+00:00", "event": "cv_plan_ready", "zone": "N.Y.C.", "screen_folds": 2, "confirm_folds": 4, "train_min": 44115, "screen_val": 12604, "confirm_val": 10083, "purge_steps": 288, "embargo_steps": 12}
+{"ts": "2026-02-25T21:01:20.268983+00:00", "event": "baseline_cv", "zone": "N.Y.C.", "aggregate": {"n_folds": 4, "median_fold_pnl": 127431.41540913843, "mean_fold_pnl": 142920.3101627282, "fold_pnl_std": 82865.89158726402, "worst_fold_pnl": 69724.14992309734, "worst_fold_drawdown": 6076.299977183342, "total_turnover": 4962.0, "total_trades": 4962, "profitable_fold_pct": 1.0, "composite_score": 84778.24762006974}}
+{"ts": "2026-02-25T21:01:20.390118+00:00", "event": "study_name", "zone": "N.Y.C.", "study_name": "alpha_v5_NYC_457eb9588748_2d3144"}
+{"ts": "2026-02-25T21:03:19.436658+00:00", "event": "init", "msg": "Initializing rigorous search controller"}
+{"ts": "2026-02-25T21:03:19.455484+00:00", "event": "optuna_jobs", "requested": 1, "effective": 1, "device": "mps"}
+{"ts": "2026-02-25T21:03:19.455649+00:00", "event": "loading_master_data", "fuels_path": "historical_data/fuels.parquet"}
+{"ts": "2026-02-25T21:03:21.986018+00:00", "event": "build_features_once"}
+{"ts": "2026-02-26T01:12:07.267455+00:00", "event": "init", "msg": "Initializing rigorous search controller"}
+{"ts": "2026-02-26T01:12:07.320056+00:00", "event": "optuna_jobs", "requested": 1, "effective": 1, "device": "mps"}
+{"ts": "2026-02-26T01:12:07.320321+00:00", "event": "loading_master_data", "fuels_path": "historical_data/fuels.parquet"}
+{"ts": "2026-02-26T01:12:09.897708+00:00", "event": "build_features_once"}
+{"ts": "2026-02-26T01:12:17.090477+00:00", "event": "feature_matrix_ready", "rows": 2373187, "n_features": 38}
+{"ts": "2026-02-26T01:12:17.157454+00:00", "event": "zone_start", "zone": "N.Y.C.", "rows": 158213, "n_features": 38}
+{"ts": "2026-02-26T01:12:17.165002+00:00", "event": "split_dev_holdout", "zone": "N.Y.C.", "dev_rows": 126570, "holdout_rows": 31643, "holdout_frac": 0.2, "holdout_start": "2025-10-29 17:30:00", "holdout_end": "2026-02-25 22:30:00"}
+{"ts": "2026-02-26T01:12:17.198472+00:00", "event": "cv_plan_ready", "zone": "N.Y.C.", "screen_folds": 2, "confirm_folds": 4, "train_min": 44300, "screen_val": 12657, "confirm_val": 10126, "purge_steps": 288, "embargo_steps": 12}
+{"ts": "2026-02-26T01:12:17.298777+00:00", "event": "baseline_cv", "zone": "N.Y.C.", "aggregate": {"n_folds": 4, "median_fold_pnl": 124749.94540452957, "mean_fold_pnl": 139748.5576656675, "fold_pnl_std": 80603.78751534678, "worst_fold_pnl": 66631.999918947, "worst_fold_drawdown": 5002.829975545406, "total_turnover": 5528.0, "total_trades": 5528, "profitable_fold_pct": 1.0, "composite_score": 83441.9576517471}}
+{"ts": "2026-02-26T01:12:17.447358+00:00", "event": "study_name", "zone": "N.Y.C.", "study_name": "alpha_v5_NYC_457eb9588748_d184e5"}
+{"ts": "2026-02-26T01:21:25.271025+00:00", "event": "confirm_candidate_done", "zone": "N.Y.C.", "rank": 1, "composite": 108256.35262203499}
+{"ts": "2026-02-26T01:43:15.307518+00:00", "event": "confirm_candidate_done", "zone": "N.Y.C.", "rank": 2, "composite": 108268.04163137551}
+{"ts": "2026-02-26T02:10:41.411547+00:00", "event": "confirm_candidate_done", "zone": "N.Y.C.", "rank": 3, "composite": 109765.22923367322}
+{"ts": "2026-02-26T02:21:00.534994+00:00", "event": "confirm_candidate_done", "zone": "N.Y.C.", "rank": 4, "composite": 107870.76964793002}
+{"ts": "2026-02-26T02:31:18.436808+00:00", "event": "confirm_candidate_done", "zone": "N.Y.C.", "rank": 5, "composite": 108277.40295240196}
+{"ts": "2026-02-26T02:51:18.408670+00:00", "event": "confirm_candidate_done", "zone": "N.Y.C.", "rank": 6, "composite": 109083.7057632325}
+{"ts": "2026-02-26T02:59:39.259403+00:00", "event": "confirm_candidate_done", "zone": "N.Y.C.", "rank": 7, "composite": 108548.80327517858}
+{"ts": "2026-02-26T03:24:23.196581+00:00", "event": "confirm_candidate_done", "zone": "N.Y.C.", "rank": 8, "composite": 109287.46503793316}
+{"ts": "2026-02-26T03:26:09.691698+00:00", "event": "zone_complete", "zone": "N.Y.C.", "champion_trial": 22, "confirm_composite": 109765.22923367322, "holdout_net_pnl": 898490.2792896628, "holdout_max_dd": 3123.349997997284}
+{"ts": "2026-02-26T03:26:09.813482+00:00", "event": "done", "results": [{"zone": "N.Y.C.", "ok": true}]}

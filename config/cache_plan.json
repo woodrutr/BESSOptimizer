@@ -1,0 +1,27 @@
+{
+  "ts": "2026-02-26T01:12:17.446559+00:00",
+  "fold_id": 3,
+  "train_rows": 116156,
+  "val_rows": 10126,
+  "n_features": 38,
+  "lookbacks": [
+    24,
+    48,
+    72,
+    96,
+    144,
+    288
+  ],
+  "prebuilt_lookbacks": [],
+  "skipped_lookbacks": [
+    24,
+    48,
+    72,
+    96,
+    144,
+    288
+  ],
+  "prebuilt_mb": 0,
+  "budget_mb": 0,
+  "mode": "lazy"
+}

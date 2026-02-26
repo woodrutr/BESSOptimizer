@@ -1,0 +1,15 @@
+{
+  "zone": "NORTH",
+  "forecast_horizon": 1,
+  "n_spread_lags": 3,
+  "vol_short_window": 6,
+  "load_window": 3,
+  "lookback": 24,
+  "learning_rate": 0.001,
+  "epochs": 50,
+  "cv_mae": 13.295947074890137,
+  "cv_r2": 0.01814901828765869,
+  "cv_directional_hit_rate": 0.606904782449703,
+  "cv_folds": 4,
+  "timestamp": "20260219_083038"
+}

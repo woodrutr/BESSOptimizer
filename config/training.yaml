@@ -1,0 +1,31 @@
+model:
+  family: lstm
+  lookback_hours: 72
+  epochs: 50
+  learning_rate: 0.001
+  use_attention: true
+  drop_sparse_weather: true
+  weather_coverage_threshold: 0.60
+
+promotion_gate:
+  enabled: true
+  min_mae_improvement_pct: 0.05
+  min_directional_improvement: 0.03
+
+zones:
+  - NYC
+  - LONGIL
+  - DUNWOD
+  - MILLWD
+  - CENTRL
+  - NORTH
+  - GENESE
+  - WEST
+  - CAPITL
+  - HUDVL
+  - MHKVL
+
+paths:
+  checkpoints: model_checkpoints
+  reports: reports
+  fuels: historical_data/fuels.parquet

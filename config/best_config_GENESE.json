@@ -1,0 +1,15 @@
+{
+  "zone": "GENESE",
+  "forecast_horizon": 1,
+  "n_spread_lags": 12,
+  "vol_short_window": 24,
+  "load_window": 3,
+  "lookback": 24,
+  "learning_rate": 0.001,
+  "epochs": 50,
+  "cv_mae": 11.069803953170776,
+  "cv_r2": 0.035277917981147766,
+  "cv_directional_hit_rate": 0.657012550846655,
+  "cv_folds": 4,
+  "timestamp": "20260219_083038"
+}

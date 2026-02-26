@@ -1,0 +1,15 @@
+{
+  "zone": "CENTRL",
+  "forecast_horizon": 1,
+  "n_spread_lags": 12,
+  "vol_short_window": 6,
+  "load_window": 6,
+  "lookback": 24,
+  "learning_rate": 0.001,
+  "epochs": 50,
+  "cv_mae": 11.305937767028809,
+  "cv_r2": 0.048678621649742126,
+  "cv_directional_hit_rate": 0.643016585536453,
+  "cv_folds": 4,
+  "timestamp": "20260219_083038"
+}

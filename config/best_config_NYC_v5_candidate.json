@@ -1,0 +1,19 @@
+{
+    "timestamp": "2026-02-23T06:49:38+00:00",
+    "zone": "N.Y.C.",
+    "lookback": 288,
+    "hidden_size": 384,
+    "num_layers": 3,
+    "learning_rate": 0.0009020171122784097,
+    "penalty_ratio": 2.594549084496933,
+    "batch_size": 256,
+    "dropout_rate": 0.29138141141684504,
+    "weight_decay": 1.7467045262568078e-05,
+    "epochs": 1,
+    "scaler_kind": "standard",
+    "alpha_score": 124964.90530597216,
+    "source": "screen_best",
+    "study_name": "alpha_v5_NYC",
+    "n_features": 34,
+    "max_train_rows": 500000
+}

@@ -1,0 +1,15 @@
+{
+  "zone": "DUNWOD",
+  "forecast_horizon": 1,
+  "n_spread_lags": 12,
+  "vol_short_window": 6,
+  "load_window": 3,
+  "lookback": 24,
+  "learning_rate": 0.001,
+  "epochs": 50,
+  "cv_mae": 12.502338647842407,
+  "cv_r2": 0.031719550490379333,
+  "cv_directional_hit_rate": 0.6152289957987741,
+  "cv_folds": 4,
+  "timestamp": "20260219_083038"
+}
